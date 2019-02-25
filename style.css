@@ -1,18 +1,52 @@
 body {
+    
     background-color: #ededed;
     color: #472020;
     font-family: 'Fjalla One', sans-serif;
+    margin: 10px ;
 
 }
 #block-title{
     background: #e0e0e0;
-    margin: 0 auto;
-    padding: 20px;
+    
+    padding: 30px;
     margin-top: 20px;
     text-align: center;
     border-radius: 10px;
 }
+#block-title:hover{
+    background: #cecccc;
+    
+}
+#image {
+    width: 50%;
+}
+#img-block {
+    background: #e0e0e0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+#tribute-block{
+    background: #e0e0e0;
+    height: 500px;
+    padding: 20px;
+    
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
 
+#tribute-info{
+    width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: justify;
+    
+}
 #title {
     
 }
